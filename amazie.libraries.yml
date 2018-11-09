@@ -1,0 +1,5 @@
+mystyle:
+  css:
+    theme:
+      style.css: {}
+      materialize.css: {}

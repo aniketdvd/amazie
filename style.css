@@ -1,0 +1,69 @@
+@font-face{
+    font-family: zzz;
+    src: url('./gSans.ttf')
+}
+*{
+    padding: 0;
+    font-family: zzz;
+    margin: 0;
+}
+.parallax-gs{
+    background-image: url('./main.jpg');
+    background-attachment: fixed;
+}
+.navpad{
+    padding-left: 6%;
+    position: fixed;
+    padding-right: 6%;
+    background-attachment: fixed;
+    width: 100%;
+    background-image: url('./main.jpg');
+}
+header{
+    background-image: url('./main.jpg');
+    font-family: zzz;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+header h1{
+    font-size: 160px;
+}
+header h3{
+    font-size: 60px;
+}
+.out-full{
+    padding: 12px;
+    height: 400px;
+    width: 100%;
+}
+
+.in-left{
+    height: 100%;
+    float: left;
+}
+.in-right{
+    height: 100%;
+    float: right;
+}
+.fill-30{
+    width: 29.5%;
+}
+.fill-70{
+    width: 69.5%;
+}
+main{
+    padding: 6%;
+}
+main a{
+    color: yellow;
+}
+footer{
+    padding: 6%;
+}
+span{
+        margin: -31px;
+}

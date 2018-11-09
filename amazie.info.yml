@@ -1,0 +1,14 @@
+name: amazie
+type: theme
+description: this is some amazing theme for D8 (GCI screencast)
+core: 8.x
+base theme: classy #IMPORTANT
+
+libraries:
+  - amazie/mystyle
+
+regions:
+  content: content
+  footer: footer
+  sidebar_first: sidebar_first
+  sidebar_second: sidebar_second
